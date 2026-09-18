@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #171918;
+  --color-background: #F7F5F0;
+  --color-secondary-bg: #ECE9E1;
+  --color-accent: #91A59A;
+  --color-highlight: #C7B99A;
+  --color-text-primary: #171918;
+  --color-text-secondary: #626762;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-serif {
+    @apply font-serif font-normal;
+  }
+}

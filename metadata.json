@@ -1,0 +1,6 @@
+{
+  "name": "The Clinic - Premium Dental Care",
+  "description": "Modern, personalized dental care combining advanced technology, experienced clinicians, and a comfortable patient experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
